@@ -226,6 +226,7 @@ button {
 .reviews-tittle-container{
 padding-top: 140px;
 padding-left: 32px;
+
 }
 
 .reviews-title {
@@ -242,17 +243,42 @@ padding-left: 32px;
     font-size: 18px;
 }
 
+.reviews-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32.5px;
+    padding-bottom: 126px;
+    padding-left: 32px;
+    gap: 139px;
+    align-items: center;
+    margin-right: auto;
+    
+}
+
 .reviews-man-container {
     width: 501px;
     height: 231px;
-    
+    background-color: #fefefe;
+    border-radius: 0 30px 30px 30px;
+    align-items: center;
+    padding: 14.28px 14px;
 }
 
 
 .reviews-girl-container {
     width: 501px;
     height: 231px;
+    background-color: #fefefe;
+    border-radius: 0 30px 30px 30px;
+    align-items: center;
+    padding: 14.28px 14px;
 }
+
+
+.reviews-icons{
+    fill: #ffe550;
+}
+
 
 .reviews-list-subtitle {
     font-size: 14px;
