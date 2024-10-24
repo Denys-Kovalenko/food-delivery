@@ -1,0 +1,268 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+
+/*__________________header______________ */
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 28px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.header-nav {
+    margin-right: 30px;
+}
+
+.header-nav-link {
+    padding: 28px 0;
+    display: block;
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #BBF330;
+}
+
+.btn-content {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    min-width: 98px;
+    height: 32px;
+    background: #bbf330;
+    border-radius: 30px;
+    border: none;
+}
+
+/* _____________Section hero перша___________ */
+
+.hero {
+    padding-top: 14px;
+    padding-bottom: 69px;
+}
+
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 143px;
+}
+
+.hero-text-wrap {
+    max-width: 511px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    margin-bottom: 28px;
+}
+
+.hero-text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* __________section about 2_________*/
+
+
+
+
+.about {
+    padding-top: 113px;
+    padding-bottom: 124px;
+    background: #ffe550;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-title {
+        font-size: 42px;
+        line-height: 1.2;
+}
+
+.about-text {
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+.about-list {}
+
+.about-item {}
+
+.about-sabtitle {
+        font-size: 18px;
+        line-height: 1.4;
+}
+
+.about-dsc {
+        font-size: 14px;
+        line-height: 1.5;
+}
+
+.about-sabtitle{}
+
+
+.btn-about {
+    padding: 10px 20px;
+    width: 106px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #7eb101;
+}
+
+
+/*______________section favorites 3____________*/
+
+
+.favorites {}
+
+.container {}
+
+.favorites-title {
+    font-size: 42px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.favorites-text {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 101px;
+}
+
+.favorites-item {
+    width: calc((100% - 64px) / 3);
+    width: 394px;
+    height: 397px;
+    border: 16px solid #ffe550;
+    border-radius: 50%;
+    background: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorites-img {
+} 
+
+
+/* _____________section reviews 4___________*/
+
+
+
+.reviews{
+    background: #ffe550;
+}
+
+.reviews-tittle-container{
+padding-top: 140px;
+padding-left: 32px;
+}
+
+.reviews-title {
+    font-size: 42px;
+    padding-bottom: 20.4px;
+}
+
+.reviews-title-text {
+    font-size: 16px;
+}
+
+
+.reviews-list-dscr {
+    font-size: 18px;
+}
+
+.reviews-man-container {
+    width: 501px;
+    height: 231px;
+    
+}
+
+
+.reviews-girl-container {
+    width: 501px;
+    height: 231px;
+}
+
+.reviews-list-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.reviews-list-subtext {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.reviews-list-img {}
+
