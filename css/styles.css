@@ -292,3 +292,152 @@ padding-left: 32px;
 
 .reviews-list-img {}
 
+/* ____________section Subscribe banan 5______________ */
+
+
+.container {
+}
+
+.banana-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 176px;
+    margin-bottom: 201px;
+
+}
+
+.subscribe-title-container{
+        
+}
+
+
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.subscribe-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+}
+
+.subscribe-label{
+    margin-right: 32px;
+}
+
+.subscribe-input{
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    width: 395px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+    background: transparent;
+    padding-left: 11px;
+}
+
+.btn-content {
+
+}
+
+.btn-subscribe {
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 103px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.subscribe-img {}
+
+
+
+
+/*___________________Footer_________________*/
+
+
+
+.footer {
+    box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+    background: #fefefe;
+}
+
+.container {}
+
+.footer-nav-container {}
+
+.footer-logo {}
+
+.footer-navigation {}
+
+.footer-navigation-list {
+    
+}
+
+.footer-navigation-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.footer-form-container {}
+
+.footer-form {}
+
+.footert-input-tex {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.footer-label {
+}
+
+.footer-input {
+    border: none;
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    width: 279px;
+    height: 42px;
+    background: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+}
+
+.btn-content {}
+
+.footer-form-dscr{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.privacy-policy-link {}
+
+.privacy-policy-span {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7eb101;
+}
+
+.footer-other-container {}
+
+.footer-other-list {}
+
+.footer-other-item {}
+
+.footer-other-text {}
